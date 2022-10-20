@@ -52,8 +52,7 @@ function App() {
       {/* <><Header /> */}
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
-      <div>        <span>Created By Deepak Arun, Uttar Pradesh(UP), 206001 | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
-</div>
+     
 
       {weather && (
         
@@ -68,6 +67,8 @@ function App() {
       )}
 
       <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
+      <div>        <span>Created By Deepak Arun, Uttar Pradesh(UP), 206001 | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+</div>
     </div>
   );
 }
